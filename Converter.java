@@ -11,7 +11,7 @@ public class Converter {
 
     void convert(double rubles, int currency) {
         if (currency == 1) {
-            System.out.println("Ваши сбережения в долларах США: " + rubles / rateUSD);
+            System.out.println("Ваши сбережения в долларах США (USD): " + rubles / rateUSD);
         } else if (currency == 2) {
             System.out.println("Ваши сбережения в евро: " + rubles / rateEUR);
         } else if (currency == 3) {
